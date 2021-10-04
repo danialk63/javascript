@@ -43,3 +43,26 @@ if(age>18){
 else{
     console.log("You cant drive");
 }
+
+
+var arr = [1,2,3,4,5,6,7,8]
+for(var i= 0; i< arr.length;i++ )
+console.log(arr[i]);
+
+arr.forEach(function(Element){
+
+    console.log(Element);
+})
+
+
+let myArr = [1,2,'ali', 'ahmad',"Ammad"]
+//myArr.pop()
+//myArr.push("ABCD")
+// myArr.shift();
+console.log(myArr);
+
+
+let myString = ("My name is ahmad")
+// console.log(myString.length);
+// console.log(myString.slice(0,10))
+console.log(myString.replace("ahmad", "ahmadKhalid"))
