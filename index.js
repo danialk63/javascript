@@ -66,3 +66,19 @@ let myString = ("My name is ahmad")
 // console.log(myString.length);
 // console.log(myString.slice(0,10))
 console.log(myString.replace("ahmad", "ahmadKhalid"))
+
+
+
+
+let myDate = new Date();
+
+console.log(myDate.getTime())
+console.log(myDate.getDate())
+
+// DOM manipulation
+let ele = document.getElementById('click')
+console.log(ele)
+
+let eleclass = document.getElementsByClassName('container2')
+console.log(eleclass)
+eleclass[1].style.background = "red";
